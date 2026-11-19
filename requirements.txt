@@ -1,0 +1,5 @@
+# Runtime + verification needs only these (verified on Python 3.12, Linux and Windows).
+numpy>=1.26
+astropy>=6.0
+# test/verification gate only:
+pytest>=8.0

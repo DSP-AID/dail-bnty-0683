@@ -1,0 +1,34 @@
+{
+ "tarball": "example-data-v1.tar.gz",
+ "source_url": "https://github.com/astronomyk/seestar_photometry/releases/download/example-data-v1/example-data-v1.tar.gz",
+ "release": "example-data-v1 (astronomyk/seestar_photometry)",
+ "retrieved": "2026-11-19",
+ "license": "GPL-3.0-or-later (upstream repository); dataset documented at https://seestar-photometry.readthedocs.io/en/latest/data-format.html",
+ "tarball_sha256": "0c6e38cd5f8c68e6179c5eda4ccecdd5d77df61f89897c67fb573b750cc9c813",
+ "tarball_size_bytes": 18319999,
+ "upstream_sha256_file": "example_data/SHA256 in the same repository (matches: 0c6e38cd5f8c68e6179c5eda4ccecdd5d77df61f89897c67fb573b750cc9c813)",
+ "members_sha256": {
+  "crowdsky_mef.fits.gz": "24e85b66150fa62bc687bc9e8d6edb48eae1fc0293be1c993a1155cc89abba6c",
+  "crowdsky_mef.wcs": "2427b98687725d61085639f89e909bb85735fbf40564191df8593a1131390244",
+  "gaia_mwcam.ecsv": "d8bf653652a12b9df75644681f1c58632bb7ef4d0b2306cb772448162ceb1b3e",
+  "raw_sub_1.fits.gz": "ea2d8ac118420f6b233a94011bee98948813fc8be6d34fe24d0ad15d3db0678e",
+  "raw_sub_2.fits.gz": "ee86bd3b0b9f3a09e2a1fd6071b851622a7c965b9c487bd7c07781e2d1d4b07b",
+  "raw_sub_3.fits.gz": "2c3a137c09ae1879732688eb231914e73814d200d551bd88aac82648952b5d30",
+  "raw_sub_4.fits.gz": "b0709d31d1bebfef081a0dc286cbae1f0f495ceca16051bae06ddef8f7d11282",
+  "raw_sub_5.fits.gz": "ac352d75bf005695dcc956f8a326ccca60696e7f768ccb0f4269591b2203f43f",
+  "stack_c17_15min.fits.gz": "c85bd09fcfd6c2674b76460f88ed7ff37e4d57d684890dfc41233d2785d1aa82",
+  "stack_c17_15min.wcs": "c176135f9d3a3d5c97ae91046a5c34cf48357b08a2de31d16bbd1d776627d86e",
+  "stack_c17_30min.fits.gz": "d20148811d5476666d04f5bdae401a3b29227ddee680adba2a90de07dfd7d75e",
+  "stack_c17_30min.wcs": "4fdd18104d0e25545c320ed677bcaa41aa04caa36a05fe3f12d6f2c616990804",
+  "stack_saturated.fits.gz": "39d5312a6cdbf1bed3b65b63417417a741d7406cc08e45690fa6da358ea7a62c",
+  "stack_saturated.wcs": "215a0b196607b2d4d52c1f7d5e28e178671d90c4a21d8f5977c270a54467fd4c"
+ },
+ "aux_files": {
+  "vsx_mwcam.json": {
+   "sha256": "e750caedd3168bf768471e5bc14f2006fa309dbdd9f473818fe692e0199d0869",
+   "source_url": "https://apps.aavso.org/v2/api/stars/search/?name=MW%20CAM",
+   "retrieved": "2026-11-19",
+   "note": "target metadata (AUID, position, VSX magnitude range, variability type); AAVSO data CC-BY-SA 4.0"
+  }
+ }
+}
